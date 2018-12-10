@@ -7,22 +7,25 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="122dp"
-        android:id="@+id/linearLayout2">
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="78dp"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textview2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="135dp"
-        android:text="Input URL:" />
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="135dp"
+            android:text="Input URL:" />
 
         <EditText
             android:id="@+id/urlinput"
@@ -34,11 +37,24 @@
             android:hint="URL(e.x: www.google.com)"
             android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/uploadbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Upload" />
-</LinearLayout>
+        <Button
+            android:id="@+id/uploadbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+
+        <Button
+            android:id="@+id/downloadbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download" />
+
+        <Button
+            android:id="@+id/howbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Use" />
+
+    </LinearLayout>
 
 </RelativeLayout>
